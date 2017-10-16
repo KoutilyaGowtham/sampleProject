@@ -1,5 +1,5 @@
 env.BUILD_TIMESTAMP = new java.text.SimpleDateFormat('yyyyMMddHHmmss').format(new Date())
-def credentialsId = 'c1-github-password-for-mobileciuser'
+def credentialsId = 'github'
 node(env.NODE_LABEL) {
     // Need to include all the parameters used by the shell
     withEnv([
